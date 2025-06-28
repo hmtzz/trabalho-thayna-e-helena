@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#item-input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#add-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#item-list {
+  list-style: none;
+  padding: 0;
+}
+
+#item-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eef;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#item-list li.comprado {
+  text-decoration: line-through;
+  color: #999;
+  background-color: #d1ffd1;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
